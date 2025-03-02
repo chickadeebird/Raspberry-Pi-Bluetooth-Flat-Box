@@ -11,6 +11,9 @@ I believe there is a significant improvement in the quality of my final images, 
 
 I might also suggest that this can be created without any soldering or complicated electronics. It does involve some software installation on the raspberry pi's Linux operating system, but I have done my best to document the steps I took to get it working.
 
+### Compatibility
+This systems works with acquisition software that runs on Windows only. I may consider creating an Alpaca-based ASCOM driver for it to be platform-independent, but I would have no way to test it other than on a Windows-based system. Let me know if there is significant interest in a platform-independent solution.
+
 # List of materials
 This is a list of the hardware I used to create this flat box. I am not responsible for anyone else's purchase or design decisions, although it was fairly straightforward to assemble the parts and get it running.
 
@@ -24,4 +27,7 @@ This is a list of the hardware I used to create this flat box. I am not responsi
 * Hardware to mount the monitor to the telescope, or to the wall of the observatory.
 
 ### Software
-* 
+* The Windows ASCOM driver is in this repository (listed above) https://github.com/chickadeebird/Raspberry-Pi-Bluetooth-Flat-Box/blob/main/ASCOM.BlueChickFlat.exe
+* The bluetooth server that runs on the raspberry pi is available in another of my repositories https://github.com/chickadeebird/RaspPiGATTServer
+
+The raspberry pi bluetooth server link has full instructions on installation.
