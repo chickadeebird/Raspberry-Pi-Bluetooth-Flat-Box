@@ -47,5 +47,16 @@ The assembly instructions are generally as follows:
 
 # Operation of the image acquisition software
 The bluetooth server on the raspberry pi needs to be associated with the ASCOM flat driver the first time the flat panel is used. First, plug in the flat panel. The raspberry pi operating system should boot up and eventually, a blue screen with a bluetooth symbol should appear. The image acquisition software (NINA or SGP) should be started on the acquisition device. Chickadee's bluetooth flat panel should be selected in the flat panel dropdown. The device settings adjacent to the dropdown should be started (a gears or wrench icon) and the popup dialog will begin scanning for the bluetooth server on the raspberry pi. Once the MAC address appears in the list, select the MAC address
+<br/>
+<img src="./figs/SGPConfigFlatBox.png" text='ASCOM Driver Config' align=left />  <br/>
+<br/>
+<br/>
+<br/>
+<img src="./figs/BlueChickDriverConfig.png" text='ASCOM Driver Config' align=left />  <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>  
 
 
