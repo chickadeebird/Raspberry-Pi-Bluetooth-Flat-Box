@@ -9,8 +9,10 @@ This is a set of DIY directions for the creation of a flat box used in amateur a
 
 I believe there is a significant improvement in the quality of my final images, but the artifact problem still remains.
 
+I might also suggest that this can be created without any soldering or complicated electronics. It does involve some software installation on the raspberry pi's Linux operating system, but I have done my best to document the steps I took to get it working.
+
 # List of materials
-This is a list of the hardware used to create this flat box.
+This is a list of the hardware I used to create this flat box. I am not responsible for anyone else's purchase or design decisions, although it was fairly straightforward to assemble the parts and get it running.
 
 ### Hardware
 * Raspberry pi. I have tested this on both the RPi 3B and 4B and it works on both. It also seems to work on a Pi Zero W 2, but it is incredibly slow. https://www.amazon.ca/dp/B07WRMR2CX
