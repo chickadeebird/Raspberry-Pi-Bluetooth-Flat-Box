@@ -28,6 +28,7 @@ This is a list of the hardware I used to create this flat box. I am not responsi
 
 ### Software
 * The Windows ASCOM driver is in this repository (listed above) https://github.com/chickadeebird/Raspberry-Pi-Bluetooth-Flat-Box/blob/main/ASCOM.BlueChickFlat.exe
-* The bluetooth server that runs on the raspberry pi is available in another of my repositories https://github.com/chickadeebird/RaspPiGATTServer
+* The bluetooth server that runs on the raspberry pi is available in another of my repositories with full instructions on installation https://github.com/chickadeebird/RaspPiGATTServer
 
-The raspberry pi bluetooth server link has full instructions on installation.
+# Assembly
+The 
