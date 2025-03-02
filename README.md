@@ -52,6 +52,16 @@ The bluetooth server on the raspberry pi needs to be associated with the ASCOM f
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 Once the MAC address appears in the list, select the MAC address of the raspberry pi and hit the 'Pair with selected device' button. This should only be required once, the first time the system is used.
 <br/>
 <br/>
@@ -60,8 +70,18 @@ Once the MAC address appears in the list, select the MAC address of the raspberr
 <br/>
 <br/>
 <br/>
-<br/>  
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 Once the device is 'paired', the device can be connected and the brightness modified by using the slider in SGP or the +/- or entry widgets in NINA. The display should change from the blue screeen to a grey screen and dim or brighten based on the input values.
 
-For both NINA and SGP, the brightness can be configured for each filter. In SGP, this is configured in the Control panel > Filters 
+For both NINA and SGP, the brightness can be configured for each filter. In SGP, this is configured in the Control panel > Filters tab > Setting button.
 
