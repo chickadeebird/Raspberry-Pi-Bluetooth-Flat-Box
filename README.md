@@ -62,10 +62,24 @@ The bluetooth server on the raspberry pi needs to be associated with the ASCOM f
 <br/>
 <br/>
 <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 Once the MAC address appears in the list, select the MAC address of the raspberry pi and hit the 'Pair with selected device' button. This should only be required once, the first time the system is used.
 <br/>
 <br/>
 <img src="./figs/BlueChickDriverConfig.png" text='ASCOM Driver Config' align=left />  <br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 <br/>
 <br/>
 <br/>
