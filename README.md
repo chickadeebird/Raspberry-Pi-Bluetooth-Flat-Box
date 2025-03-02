@@ -14,6 +14,11 @@ I might also suggest that this can be created without any soldering or complicat
 ### Compatibility
 This systems works with acquisition software that runs on Windows only. I may consider creating an Alpaca-based ASCOM driver for it to be platform-independent, but I would have no way to test it other than on a Windows-based system. Let me know if there is significant interest in a platform-independent solution.
 
+It is tested and works with:
+
+* Sequence Generator Pro
+* N.I.N.A.
+
 # List of materials
 This is a list of the hardware I used to create this flat box. I am not responsible for anyone else's purchase or design decisions, although it was fairly straightforward to assemble the parts and get it running.
 
@@ -31,4 +36,16 @@ This is a list of the hardware I used to create this flat box. I am not responsi
 * The bluetooth server that runs on the raspberry pi is available in another of my repositories with full instructions on installation https://github.com/chickadeebird/RaspPiGATTServer
 
 # Assembly
-The 
+The assembly instructions are generally as follows:
+
+* Install the operating system on the raspberry pi as per https://github.com/chickadeebird/RaspPiGATTServer
+* Install the bluetooth (GATT) server on the raspberr pi as per https://github.com/chickadeebird/RaspPiGATTServer
+* Connect the raspberry pi to the LED or LCD monitor. I used the Sunfounder monitor as that we made specifically to house a raspberry pi and therefore only 1, 12V power cable was needed
+* Install the ASCOM flat box driver (ASCOM.BlueChickFlat.exe) from this repository
+* If this is to be attached to the telescope, create a mount system around the opening of the telescope for the monitor to sit in
+* If this is to be attached to a wall, create a mount system to attach the monitor and raspberry pi to the wall
+
+# Operation of the image acquisition software
+The bluetooth server on the raspberry pi needs to be associated with the ASCOM flat driver the first time the flat panel is used. First, plug in the flat panel. The raspberry pi operating system should boot up and eventually, a blue screen with a bluetooth symbol should appear. The image acquisition software (NINA or SGP) should be started on the acquisition device. Chickadee's bluetooth flat panel should be selected in the flat panel dropdown. The device settings adjacent to the dropdown should be started (a gears or wrench icon) and the popup dialog will begin scanning for the bluetooth server on the raspberry pi. Once the MAC address appears in the list, select the MAC address
+
+
