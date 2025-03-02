@@ -7,7 +7,7 @@ This is a set of DIY directions for the creation of a flat box used in amateur a
 * uneven flat box illumination
 * artifacts stemming from the PWM
 
-I believe there is a significant improvement in the quality of my final images, but the artifact problem still remains.
+I believe there is a significant improvement in the quality of my final images from the better flats, but the artifact problem still remains.
 
 I might also suggest that this can be created without any soldering or complicated electronics. It does involve some software installation on the raspberry pi's Linux operating system, but I have done my best to document the steps I took to get it working.
 
