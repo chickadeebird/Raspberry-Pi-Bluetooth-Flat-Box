@@ -99,3 +99,9 @@ Once the device is 'paired', the device can be connected and the brightness modi
 
 For both NINA and SGP, the brightness can be configured for each filter. In SGP, this is configured in the Control panel > Filters tab > Setting button.
 
+# Initial Prototype
+I do not have access to a 3D printer at the moment - I only have access to cardboard, duct tape and some velcro. However, this prototype seems to work well functionally even though it looks like a 5 year old made it. Ideally, I would design and print out a system to hang the monitor/raspberry pi system onto a plumbing flange that was large enough for the outside of the dew shield, but it works very well at the moment with even illumination across the flat box, a quick startup with the raspberry pi 4B, and the programmable wireless illumination is very convenient and easy to use. Below are some images of the prototype. I left the cover off to show the connection to the raspberry pi, but the monitor comes with a cover and fan that conceals the raspberry pi.
+
+<img src="./figs/FlatBoxFront.jpg" text='ASCOM Driver Config' align=left />  <br/>
+
+<img src="./figs/FlatBoxBack.jpg" text='ASCOM Driver Config' align=left />  <br/>
